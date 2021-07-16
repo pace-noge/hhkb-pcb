@@ -1,4 +1,1852 @@
-EESchema Schematic File Version 2
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCU_ST_STM32F1:STM32F103C8Tx U1
+U 1 1 60F0FA7F
+P 9300 5750
+F 0 "U1" H 9250 4069 50  0000 C CNN
+F 1 "STM32F103C8Tx" H 9250 4160 50  0000 C CNN
+F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 8700 4350 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf" H 9300 5750 50  0001 C CNN
+	1    9300 5750
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 60F5268F
+P 2050 1700
+F 0 "D?" V 2096 1621 50  0000 R CNN
+F 1 "1N4148" V 2005 1621 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2050 1525 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2050 1700 50  0001 C CNN
+	1    2050 1700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2050 1550 2200 1550
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 60F54CF8
+P 2250 1400
+F 0 "MX?" H 2283 1623 60  0000 C CNN
+F 1 "MX-NoLED" H 2283 1549 20  0000 C CNN
+F 2 "" H 1625 1375 60  0001 C CNN
+F 3 "" H 1625 1375 60  0001 C CNN
+	1    2250 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 60F5776D
+P 2600 1700
+F 0 "D?" V 2646 1621 50  0000 R CNN
+F 1 "1N4148" V 2555 1621 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2600 1525 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2600 1700 50  0001 C CNN
+	1    2600 1700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2600 1550 2750 1550
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 60F57774
+P 2800 1400
+F 0 "MX?" H 2833 1623 60  0000 C CNN
+F 1 "MX-NoLED" H 2833 1549 20  0000 C CNN
+F 2 "" H 2175 1375 60  0001 C CNN
+F 3 "" H 2175 1375 60  0001 C CNN
+	1    2800 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 60F57CEE
+P 3200 1700
+F 0 "D?" V 3246 1621 50  0000 R CNN
+F 1 "1N4148" V 3155 1621 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3200 1525 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3200 1700 50  0001 C CNN
+	1    3200 1700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3200 1550 3350 1550
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 60F57CF5
+P 3400 1400
+F 0 "MX?" H 3433 1623 60  0000 C CNN
+F 1 "MX-NoLED" H 3433 1549 20  0000 C CNN
+F 2 "" H 2775 1375 60  0001 C CNN
+F 3 "" H 2775 1375 60  0001 C CNN
+	1    3400 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 60F59375
+P 3700 1700
+F 0 "D?" V 3746 1621 50  0000 R CNN
+F 1 "1N4148" V 3655 1621 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3700 1525 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3700 1700 50  0001 C CNN
+	1    3700 1700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3700 1550 3850 1550
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 60F5937C
+P 3900 1400
+F 0 "MX?" H 3933 1623 60  0000 C CNN
+F 1 "MX-NoLED" H 3933 1549 20  0000 C CNN
+F 2 "" H 3275 1375 60  0001 C CNN
+F 3 "" H 3275 1375 60  0001 C CNN
+	1    3900 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 60F5A012
+P 4200 1700
+F 0 "D?" V 4246 1621 50  0000 R CNN
+F 1 "1N4148" V 4155 1621 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4200 1525 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4200 1700 50  0001 C CNN
+	1    4200 1700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4200 1550 4350 1550
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 60F5A019
+P 4400 1400
+F 0 "MX?" H 4433 1623 60  0000 C CNN
+F 1 "MX-NoLED" H 4433 1549 20  0000 C CNN
+F 2 "" H 3775 1375 60  0001 C CNN
+F 3 "" H 3775 1375 60  0001 C CNN
+	1    4400 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 60F5B6FA
+P 4750 1700
+F 0 "D?" V 4796 1621 50  0000 R CNN
+F 1 "1N4148" V 4705 1621 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4750 1525 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4750 1700 50  0001 C CNN
+	1    4750 1700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4750 1550 4900 1550
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 60F5B701
+P 4950 1400
+F 0 "MX?" H 4983 1623 60  0000 C CNN
+F 1 "MX-NoLED" H 4983 1549 20  0000 C CNN
+F 2 "" H 4325 1375 60  0001 C CNN
+F 3 "" H 4325 1375 60  0001 C CNN
+	1    4950 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 60F6A89C
+P 5250 1700
+F 0 "D?" V 5296 1621 50  0000 R CNN
+F 1 "1N4148" V 5205 1621 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5250 1525 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5250 1700 50  0001 C CNN
+	1    5250 1700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5250 1550 5400 1550
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 60F6A8A3
+P 5450 1400
+F 0 "MX?" H 5483 1623 60  0000 C CNN
+F 1 "MX-NoLED" H 5483 1549 20  0000 C CNN
+F 2 "" H 4825 1375 60  0001 C CNN
+F 3 "" H 4825 1375 60  0001 C CNN
+	1    5450 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 60F6A8A9
+P 5800 1700
+F 0 "D?" V 5846 1621 50  0000 R CNN
+F 1 "1N4148" V 5755 1621 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5800 1525 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5800 1700 50  0001 C CNN
+	1    5800 1700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5800 1550 5950 1550
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 60F6A8B0
+P 6000 1400
+F 0 "MX?" H 6033 1623 60  0000 C CNN
+F 1 "MX-NoLED" H 6033 1549 20  0000 C CNN
+F 2 "" H 5375 1375 60  0001 C CNN
+F 3 "" H 5375 1375 60  0001 C CNN
+	1    6000 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 60F6A8B6
+P 6400 1700
+F 0 "D?" V 6446 1621 50  0000 R CNN
+F 1 "1N4148" V 6355 1621 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6400 1525 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6400 1700 50  0001 C CNN
+	1    6400 1700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6400 1550 6550 1550
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 60F6A8BD
+P 6600 1400
+F 0 "MX?" H 6633 1623 60  0000 C CNN
+F 1 "MX-NoLED" H 6633 1549 20  0000 C CNN
+F 2 "" H 5975 1375 60  0001 C CNN
+F 3 "" H 5975 1375 60  0001 C CNN
+	1    6600 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 60F6A8C3
+P 6900 1700
+F 0 "D?" V 6946 1621 50  0000 R CNN
+F 1 "1N4148" V 6855 1621 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6900 1525 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6900 1700 50  0001 C CNN
+	1    6900 1700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6900 1550 7050 1550
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 60F6A8CA
+P 7100 1400
+F 0 "MX?" H 7133 1623 60  0000 C CNN
+F 1 "MX-NoLED" H 7133 1549 20  0000 C CNN
+F 2 "" H 6475 1375 60  0001 C CNN
+F 3 "" H 6475 1375 60  0001 C CNN
+	1    7100 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 60F6A8D0
+P 7400 1700
+F 0 "D?" V 7446 1621 50  0000 R CNN
+F 1 "1N4148" V 7355 1621 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7400 1525 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7400 1700 50  0001 C CNN
+	1    7400 1700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7400 1550 7550 1550
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 60F6A8D7
+P 7600 1400
+F 0 "MX?" H 7633 1623 60  0000 C CNN
+F 1 "MX-NoLED" H 7633 1549 20  0000 C CNN
+F 2 "" H 6975 1375 60  0001 C CNN
+F 3 "" H 6975 1375 60  0001 C CNN
+	1    7600 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 60F6A8DD
+P 7950 1700
+F 0 "D?" V 7996 1621 50  0000 R CNN
+F 1 "1N4148" V 7905 1621 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7950 1525 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7950 1700 50  0001 C CNN
+	1    7950 1700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7950 1550 8100 1550
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 60F6A8E4
+P 8150 1400
+F 0 "MX?" H 8183 1623 60  0000 C CNN
+F 1 "MX-NoLED" H 8183 1549 20  0000 C CNN
+F 2 "" H 7525 1375 60  0001 C CNN
+F 3 "" H 7525 1375 60  0001 C CNN
+	1    8150 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 60F7252E
+P 8400 1700
+F 0 "D?" V 8446 1621 50  0000 R CNN
+F 1 "1N4148" V 8355 1621 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8400 1525 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8400 1700 50  0001 C CNN
+	1    8400 1700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8400 1550 8550 1550
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 60F72535
+P 8600 1400
+F 0 "MX?" H 8633 1623 60  0000 C CNN
+F 1 "MX-NoLED" H 8633 1549 20  0000 C CNN
+F 2 "" H 7975 1375 60  0001 C CNN
+F 3 "" H 7975 1375 60  0001 C CNN
+	1    8600 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 60F7253B
+P 8950 1700
+F 0 "D?" V 8996 1621 50  0000 R CNN
+F 1 "1N4148" V 8905 1621 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8950 1525 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8950 1700 50  0001 C CNN
+	1    8950 1700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8950 1550 9100 1550
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 60F72542
+P 9150 1400
+F 0 "MX?" H 9183 1623 60  0000 C CNN
+F 1 "MX-NoLED" H 9183 1549 20  0000 C CNN
+F 2 "" H 8525 1375 60  0001 C CNN
+F 3 "" H 8525 1375 60  0001 C CNN
+	1    9150 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 60F72548
+P 9550 1700
+F 0 "D?" V 9596 1621 50  0000 R CNN
+F 1 "1N4148" V 9505 1621 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9550 1525 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9550 1700 50  0001 C CNN
+	1    9550 1700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9550 1550 9700 1550
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 60F7254F
+P 9750 1400
+F 0 "MX?" H 9783 1623 60  0000 C CNN
+F 1 "MX-NoLED" H 9783 1549 20  0000 C CNN
+F 2 "" H 9125 1375 60  0001 C CNN
+F 3 "" H 9125 1375 60  0001 C CNN
+	1    9750 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8950 1850 9550 1850
+Wire Wire Line
+	8950 1850 8400 1850
+Connection ~ 8950 1850
+Wire Wire Line
+	8400 1850 7950 1850
+Connection ~ 8400 1850
+Wire Wire Line
+	7950 1850 7400 1850
+Connection ~ 7950 1850
+Wire Wire Line
+	7400 1850 6900 1850
+Connection ~ 7400 1850
+Wire Wire Line
+	6900 1850 6400 1850
+Connection ~ 6900 1850
+Wire Wire Line
+	6400 1850 5800 1850
+Connection ~ 6400 1850
+Wire Wire Line
+	5800 1850 5250 1850
+Connection ~ 5800 1850
+Wire Wire Line
+	5250 1850 4750 1850
+Connection ~ 5250 1850
+Wire Wire Line
+	4750 1850 4200 1850
+Connection ~ 4750 1850
+Wire Wire Line
+	4200 1850 3700 1850
+Connection ~ 4200 1850
+Wire Wire Line
+	3700 1850 3200 1850
+Connection ~ 3700 1850
+Wire Wire Line
+	3200 1850 2600 1850
+Connection ~ 3200 1850
+Wire Wire Line
+	2050 1850 2600 1850
+Connection ~ 2600 1850
+$Comp
+L Diode:1N4148 D?
+U 1 1 60FAA3D0
+P 2250 2450
+F 0 "D?" V 2296 2371 50  0000 R CNN
+F 1 "1N4148" V 2205 2371 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2250 2275 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2250 2450 50  0001 C CNN
+	1    2250 2450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2250 2300 2400 2300
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 60FAA3D7
+P 2450 2150
+F 0 "MX?" H 2483 2373 60  0000 C CNN
+F 1 "MX-NoLED" H 2483 2299 20  0000 C CNN
+F 2 "" H 1825 2125 60  0001 C CNN
+F 3 "" H 1825 2125 60  0001 C CNN
+	1    2450 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 60FAA3DD
+P 2800 2450
+F 0 "D?" V 2846 2371 50  0000 R CNN
+F 1 "1N4148" V 2755 2371 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2800 2275 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2800 2450 50  0001 C CNN
+	1    2800 2450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2800 2300 2950 2300
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 60FAA3E4
+P 3000 2150
+F 0 "MX?" H 3033 2373 60  0000 C CNN
+F 1 "MX-NoLED" H 3033 2299 20  0000 C CNN
+F 2 "" H 2375 2125 60  0001 C CNN
+F 3 "" H 2375 2125 60  0001 C CNN
+	1    3000 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 60FAA3EA
+P 3400 2450
+F 0 "D?" V 3446 2371 50  0000 R CNN
+F 1 "1N4148" V 3355 2371 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3400 2275 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3400 2450 50  0001 C CNN
+	1    3400 2450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3400 2300 3550 2300
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 60FAA3F1
+P 3600 2150
+F 0 "MX?" H 3633 2373 60  0000 C CNN
+F 1 "MX-NoLED" H 3633 2299 20  0000 C CNN
+F 2 "" H 2975 2125 60  0001 C CNN
+F 3 "" H 2975 2125 60  0001 C CNN
+	1    3600 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 60FAA3F7
+P 3900 2450
+F 0 "D?" V 3946 2371 50  0000 R CNN
+F 1 "1N4148" V 3855 2371 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3900 2275 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3900 2450 50  0001 C CNN
+	1    3900 2450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3900 2300 4050 2300
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 60FAA3FE
+P 4100 2150
+F 0 "MX?" H 4133 2373 60  0000 C CNN
+F 1 "MX-NoLED" H 4133 2299 20  0000 C CNN
+F 2 "" H 3475 2125 60  0001 C CNN
+F 3 "" H 3475 2125 60  0001 C CNN
+	1    4100 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 60FAA404
+P 4400 2450
+F 0 "D?" V 4446 2371 50  0000 R CNN
+F 1 "1N4148" V 4355 2371 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4400 2275 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4400 2450 50  0001 C CNN
+	1    4400 2450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4400 2300 4550 2300
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 60FAA40B
+P 4600 2150
+F 0 "MX?" H 4633 2373 60  0000 C CNN
+F 1 "MX-NoLED" H 4633 2299 20  0000 C CNN
+F 2 "" H 3975 2125 60  0001 C CNN
+F 3 "" H 3975 2125 60  0001 C CNN
+	1    4600 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 60FAA411
+P 4950 2450
+F 0 "D?" V 4996 2371 50  0000 R CNN
+F 1 "1N4148" V 4905 2371 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4950 2275 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4950 2450 50  0001 C CNN
+	1    4950 2450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4950 2300 5100 2300
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 60FAA418
+P 5150 2150
+F 0 "MX?" H 5183 2373 60  0000 C CNN
+F 1 "MX-NoLED" H 5183 2299 20  0000 C CNN
+F 2 "" H 4525 2125 60  0001 C CNN
+F 3 "" H 4525 2125 60  0001 C CNN
+	1    5150 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 60FAA41E
+P 5450 2450
+F 0 "D?" V 5496 2371 50  0000 R CNN
+F 1 "1N4148" V 5405 2371 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5450 2275 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5450 2450 50  0001 C CNN
+	1    5450 2450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5450 2300 5600 2300
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 60FAA425
+P 5650 2150
+F 0 "MX?" H 5683 2373 60  0000 C CNN
+F 1 "MX-NoLED" H 5683 2299 20  0000 C CNN
+F 2 "" H 5025 2125 60  0001 C CNN
+F 3 "" H 5025 2125 60  0001 C CNN
+	1    5650 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 60FAA42B
+P 6000 2450
+F 0 "D?" V 6046 2371 50  0000 R CNN
+F 1 "1N4148" V 5955 2371 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6000 2275 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6000 2450 50  0001 C CNN
+	1    6000 2450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6000 2300 6150 2300
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 60FAA432
+P 6200 2150
+F 0 "MX?" H 6233 2373 60  0000 C CNN
+F 1 "MX-NoLED" H 6233 2299 20  0000 C CNN
+F 2 "" H 5575 2125 60  0001 C CNN
+F 3 "" H 5575 2125 60  0001 C CNN
+	1    6200 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 60FAA438
+P 6600 2450
+F 0 "D?" V 6646 2371 50  0000 R CNN
+F 1 "1N4148" V 6555 2371 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6600 2275 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6600 2450 50  0001 C CNN
+	1    6600 2450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6600 2300 6750 2300
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 60FAA43F
+P 6800 2150
+F 0 "MX?" H 6833 2373 60  0000 C CNN
+F 1 "MX-NoLED" H 6833 2299 20  0000 C CNN
+F 2 "" H 6175 2125 60  0001 C CNN
+F 3 "" H 6175 2125 60  0001 C CNN
+	1    6800 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 60FAA445
+P 7100 2450
+F 0 "D?" V 7146 2371 50  0000 R CNN
+F 1 "1N4148" V 7055 2371 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7100 2275 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7100 2450 50  0001 C CNN
+	1    7100 2450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7100 2300 7250 2300
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 60FAA44C
+P 7300 2150
+F 0 "MX?" H 7333 2373 60  0000 C CNN
+F 1 "MX-NoLED" H 7333 2299 20  0000 C CNN
+F 2 "" H 6675 2125 60  0001 C CNN
+F 3 "" H 6675 2125 60  0001 C CNN
+	1    7300 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 60FAA452
+P 7600 2450
+F 0 "D?" V 7646 2371 50  0000 R CNN
+F 1 "1N4148" V 7555 2371 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7600 2275 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7600 2450 50  0001 C CNN
+	1    7600 2450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7600 2300 7750 2300
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 60FAA459
+P 7800 2150
+F 0 "MX?" H 7833 2373 60  0000 C CNN
+F 1 "MX-NoLED" H 7833 2299 20  0000 C CNN
+F 2 "" H 7175 2125 60  0001 C CNN
+F 3 "" H 7175 2125 60  0001 C CNN
+	1    7800 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 60FAA45F
+P 8150 2450
+F 0 "D?" V 8196 2371 50  0000 R CNN
+F 1 "1N4148" V 8105 2371 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8150 2275 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8150 2450 50  0001 C CNN
+	1    8150 2450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8150 2300 8300 2300
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 60FAA466
+P 8350 2150
+F 0 "MX?" H 8383 2373 60  0000 C CNN
+F 1 "MX-NoLED" H 8383 2299 20  0000 C CNN
+F 2 "" H 7725 2125 60  0001 C CNN
+F 3 "" H 7725 2125 60  0001 C CNN
+	1    8350 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 60FAA46C
+P 8600 2450
+F 0 "D?" V 8646 2371 50  0000 R CNN
+F 1 "1N4148" V 8555 2371 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8600 2275 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8600 2450 50  0001 C CNN
+	1    8600 2450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8600 2300 8750 2300
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 60FAA473
+P 8800 2150
+F 0 "MX?" H 8833 2373 60  0000 C CNN
+F 1 "MX-NoLED" H 8833 2299 20  0000 C CNN
+F 2 "" H 8175 2125 60  0001 C CNN
+F 3 "" H 8175 2125 60  0001 C CNN
+	1    8800 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 60FAA479
+P 9150 2450
+F 0 "D?" V 9196 2371 50  0000 R CNN
+F 1 "1N4148" V 9105 2371 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9150 2275 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9150 2450 50  0001 C CNN
+	1    9150 2450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9150 2300 9300 2300
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 60FAA480
+P 9350 2150
+F 0 "MX?" H 9383 2373 60  0000 C CNN
+F 1 "MX-NoLED" H 9383 2299 20  0000 C CNN
+F 2 "" H 8725 2125 60  0001 C CNN
+F 3 "" H 8725 2125 60  0001 C CNN
+	1    9350 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9150 2600 8600 2600
+Wire Wire Line
+	8600 2600 8150 2600
+Connection ~ 8600 2600
+Wire Wire Line
+	8150 2600 7600 2600
+Connection ~ 8150 2600
+Wire Wire Line
+	7600 2600 7100 2600
+Connection ~ 7600 2600
+Wire Wire Line
+	7100 2600 6600 2600
+Connection ~ 7100 2600
+Wire Wire Line
+	6600 2600 6000 2600
+Connection ~ 6600 2600
+Wire Wire Line
+	6000 2600 5450 2600
+Connection ~ 6000 2600
+Wire Wire Line
+	5450 2600 4950 2600
+Connection ~ 5450 2600
+Wire Wire Line
+	4950 2600 4400 2600
+Connection ~ 4950 2600
+Wire Wire Line
+	4400 2600 3900 2600
+Connection ~ 4400 2600
+Wire Wire Line
+	3900 2600 3400 2600
+Connection ~ 3900 2600
+Wire Wire Line
+	3400 2600 2800 2600
+Connection ~ 3400 2600
+Wire Wire Line
+	2250 2600 2800 2600
+Connection ~ 2800 2600
+$Comp
+L Diode:1N4148 D?
+U 1 1 6100408A
+P 2200 3150
+F 0 "D?" V 2246 3071 50  0000 R CNN
+F 1 "1N4148" V 2155 3071 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2200 2975 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2200 3150 50  0001 C CNN
+	1    2200 3150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2200 3000 2350 3000
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 61004091
+P 2400 2850
+F 0 "MX?" H 2433 3073 60  0000 C CNN
+F 1 "MX-NoLED" H 2433 2999 20  0000 C CNN
+F 2 "" H 1775 2825 60  0001 C CNN
+F 3 "" H 1775 2825 60  0001 C CNN
+	1    2400 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 61004097
+P 2750 3150
+F 0 "D?" V 2796 3071 50  0000 R CNN
+F 1 "1N4148" V 2705 3071 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2750 2975 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2750 3150 50  0001 C CNN
+	1    2750 3150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2750 3000 2900 3000
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 6100409E
+P 2950 2850
+F 0 "MX?" H 2983 3073 60  0000 C CNN
+F 1 "MX-NoLED" H 2983 2999 20  0000 C CNN
+F 2 "" H 2325 2825 60  0001 C CNN
+F 3 "" H 2325 2825 60  0001 C CNN
+	1    2950 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 610040A4
+P 3350 3150
+F 0 "D?" V 3396 3071 50  0000 R CNN
+F 1 "1N4148" V 3305 3071 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3350 2975 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3350 3150 50  0001 C CNN
+	1    3350 3150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3350 3000 3500 3000
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 610040AB
+P 3550 2850
+F 0 "MX?" H 3583 3073 60  0000 C CNN
+F 1 "MX-NoLED" H 3583 2999 20  0000 C CNN
+F 2 "" H 2925 2825 60  0001 C CNN
+F 3 "" H 2925 2825 60  0001 C CNN
+	1    3550 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 610040B1
+P 3850 3150
+F 0 "D?" V 3896 3071 50  0000 R CNN
+F 1 "1N4148" V 3805 3071 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3850 2975 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3850 3150 50  0001 C CNN
+	1    3850 3150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3850 3000 4000 3000
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 610040B8
+P 4050 2850
+F 0 "MX?" H 4083 3073 60  0000 C CNN
+F 1 "MX-NoLED" H 4083 2999 20  0000 C CNN
+F 2 "" H 3425 2825 60  0001 C CNN
+F 3 "" H 3425 2825 60  0001 C CNN
+	1    4050 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 610040BE
+P 4350 3150
+F 0 "D?" V 4396 3071 50  0000 R CNN
+F 1 "1N4148" V 4305 3071 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4350 2975 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4350 3150 50  0001 C CNN
+	1    4350 3150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4350 3000 4500 3000
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 610040C5
+P 4550 2850
+F 0 "MX?" H 4583 3073 60  0000 C CNN
+F 1 "MX-NoLED" H 4583 2999 20  0000 C CNN
+F 2 "" H 3925 2825 60  0001 C CNN
+F 3 "" H 3925 2825 60  0001 C CNN
+	1    4550 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 610040CB
+P 4900 3150
+F 0 "D?" V 4946 3071 50  0000 R CNN
+F 1 "1N4148" V 4855 3071 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4900 2975 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4900 3150 50  0001 C CNN
+	1    4900 3150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4900 3000 5050 3000
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 610040D2
+P 5100 2850
+F 0 "MX?" H 5133 3073 60  0000 C CNN
+F 1 "MX-NoLED" H 5133 2999 20  0000 C CNN
+F 2 "" H 4475 2825 60  0001 C CNN
+F 3 "" H 4475 2825 60  0001 C CNN
+	1    5100 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 610040D8
+P 5400 3150
+F 0 "D?" V 5446 3071 50  0000 R CNN
+F 1 "1N4148" V 5355 3071 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5400 2975 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5400 3150 50  0001 C CNN
+	1    5400 3150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5400 3000 5550 3000
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 610040DF
+P 5600 2850
+F 0 "MX?" H 5633 3073 60  0000 C CNN
+F 1 "MX-NoLED" H 5633 2999 20  0000 C CNN
+F 2 "" H 4975 2825 60  0001 C CNN
+F 3 "" H 4975 2825 60  0001 C CNN
+	1    5600 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 610040E5
+P 5950 3150
+F 0 "D?" V 5996 3071 50  0000 R CNN
+F 1 "1N4148" V 5905 3071 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5950 2975 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5950 3150 50  0001 C CNN
+	1    5950 3150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5950 3000 6100 3000
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 610040EC
+P 6150 2850
+F 0 "MX?" H 6183 3073 60  0000 C CNN
+F 1 "MX-NoLED" H 6183 2999 20  0000 C CNN
+F 2 "" H 5525 2825 60  0001 C CNN
+F 3 "" H 5525 2825 60  0001 C CNN
+	1    6150 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 610040F2
+P 6550 3150
+F 0 "D?" V 6596 3071 50  0000 R CNN
+F 1 "1N4148" V 6505 3071 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6550 2975 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6550 3150 50  0001 C CNN
+	1    6550 3150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6550 3000 6700 3000
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 610040F9
+P 6750 2850
+F 0 "MX?" H 6783 3073 60  0000 C CNN
+F 1 "MX-NoLED" H 6783 2999 20  0000 C CNN
+F 2 "" H 6125 2825 60  0001 C CNN
+F 3 "" H 6125 2825 60  0001 C CNN
+	1    6750 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 610040FF
+P 7050 3150
+F 0 "D?" V 7096 3071 50  0000 R CNN
+F 1 "1N4148" V 7005 3071 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7050 2975 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7050 3150 50  0001 C CNN
+	1    7050 3150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7050 3000 7200 3000
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 61004106
+P 7250 2850
+F 0 "MX?" H 7283 3073 60  0000 C CNN
+F 1 "MX-NoLED" H 7283 2999 20  0000 C CNN
+F 2 "" H 6625 2825 60  0001 C CNN
+F 3 "" H 6625 2825 60  0001 C CNN
+	1    7250 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 6100410C
+P 7550 3150
+F 0 "D?" V 7596 3071 50  0000 R CNN
+F 1 "1N4148" V 7505 3071 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7550 2975 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7550 3150 50  0001 C CNN
+	1    7550 3150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7550 3000 7700 3000
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 61004113
+P 7750 2850
+F 0 "MX?" H 7783 3073 60  0000 C CNN
+F 1 "MX-NoLED" H 7783 2999 20  0000 C CNN
+F 2 "" H 7125 2825 60  0001 C CNN
+F 3 "" H 7125 2825 60  0001 C CNN
+	1    7750 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 61004119
+P 8100 3150
+F 0 "D?" V 8146 3071 50  0000 R CNN
+F 1 "1N4148" V 8055 3071 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8100 2975 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8100 3150 50  0001 C CNN
+	1    8100 3150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8100 3000 8250 3000
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 61004120
+P 8300 2850
+F 0 "MX?" H 8333 3073 60  0000 C CNN
+F 1 "MX-NoLED" H 8333 2999 20  0000 C CNN
+F 2 "" H 7675 2825 60  0001 C CNN
+F 3 "" H 7675 2825 60  0001 C CNN
+	1    8300 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 61004126
+P 8550 3150
+F 0 "D?" V 8596 3071 50  0000 R CNN
+F 1 "1N4148" V 8505 3071 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8550 2975 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8550 3150 50  0001 C CNN
+	1    8550 3150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8550 3000 8700 3000
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 6100412D
+P 8750 2850
+F 0 "MX?" H 8783 3073 60  0000 C CNN
+F 1 "MX-NoLED" H 8783 2999 20  0000 C CNN
+F 2 "" H 8125 2825 60  0001 C CNN
+F 3 "" H 8125 2825 60  0001 C CNN
+	1    8750 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8550 3300 8100 3300
+Wire Wire Line
+	8100 3300 7550 3300
+Connection ~ 8100 3300
+Wire Wire Line
+	7550 3300 7050 3300
+Connection ~ 7550 3300
+Wire Wire Line
+	7050 3300 6550 3300
+Connection ~ 7050 3300
+Wire Wire Line
+	6550 3300 5950 3300
+Connection ~ 6550 3300
+Wire Wire Line
+	5950 3300 5400 3300
+Connection ~ 5950 3300
+Wire Wire Line
+	5400 3300 4900 3300
+Connection ~ 5400 3300
+Wire Wire Line
+	4900 3300 4350 3300
+Connection ~ 4900 3300
+Wire Wire Line
+	4350 3300 3850 3300
+Connection ~ 4350 3300
+Wire Wire Line
+	3850 3300 3350 3300
+Connection ~ 3850 3300
+Wire Wire Line
+	3350 3300 2750 3300
+Connection ~ 3350 3300
+Wire Wire Line
+	2200 3300 2750 3300
+Connection ~ 2750 3300
+$Comp
+L Diode:1N4148 D?
+U 1 1 6102DA1D
+P 2150 3850
+F 0 "D?" V 2196 3771 50  0000 R CNN
+F 1 "1N4148" V 2105 3771 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2150 3675 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2150 3850 50  0001 C CNN
+	1    2150 3850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2150 3700 2300 3700
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 6102DA24
+P 2350 3550
+F 0 "MX?" H 2383 3773 60  0000 C CNN
+F 1 "MX-NoLED" H 2383 3699 20  0000 C CNN
+F 2 "" H 1725 3525 60  0001 C CNN
+F 3 "" H 1725 3525 60  0001 C CNN
+	1    2350 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 6102DA2A
+P 2700 3850
+F 0 "D?" V 2746 3771 50  0000 R CNN
+F 1 "1N4148" V 2655 3771 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2700 3675 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2700 3850 50  0001 C CNN
+	1    2700 3850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2700 3700 2850 3700
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 6102DA31
+P 2900 3550
+F 0 "MX?" H 2933 3773 60  0000 C CNN
+F 1 "MX-NoLED" H 2933 3699 20  0000 C CNN
+F 2 "" H 2275 3525 60  0001 C CNN
+F 3 "" H 2275 3525 60  0001 C CNN
+	1    2900 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 6102DA37
+P 3300 3850
+F 0 "D?" V 3346 3771 50  0000 R CNN
+F 1 "1N4148" V 3255 3771 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3300 3675 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3300 3850 50  0001 C CNN
+	1    3300 3850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3300 3700 3450 3700
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 6102DA3E
+P 3500 3550
+F 0 "MX?" H 3533 3773 60  0000 C CNN
+F 1 "MX-NoLED" H 3533 3699 20  0000 C CNN
+F 2 "" H 2875 3525 60  0001 C CNN
+F 3 "" H 2875 3525 60  0001 C CNN
+	1    3500 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 6102DA44
+P 3800 3850
+F 0 "D?" V 3846 3771 50  0000 R CNN
+F 1 "1N4148" V 3755 3771 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3800 3675 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3800 3850 50  0001 C CNN
+	1    3800 3850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3800 3700 3950 3700
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 6102DA4B
+P 4000 3550
+F 0 "MX?" H 4033 3773 60  0000 C CNN
+F 1 "MX-NoLED" H 4033 3699 20  0000 C CNN
+F 2 "" H 3375 3525 60  0001 C CNN
+F 3 "" H 3375 3525 60  0001 C CNN
+	1    4000 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 6102DA51
+P 4300 3850
+F 0 "D?" V 4346 3771 50  0000 R CNN
+F 1 "1N4148" V 4255 3771 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4300 3675 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4300 3850 50  0001 C CNN
+	1    4300 3850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4300 3700 4450 3700
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 6102DA58
+P 4500 3550
+F 0 "MX?" H 4533 3773 60  0000 C CNN
+F 1 "MX-NoLED" H 4533 3699 20  0000 C CNN
+F 2 "" H 3875 3525 60  0001 C CNN
+F 3 "" H 3875 3525 60  0001 C CNN
+	1    4500 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 6102DA5E
+P 4850 3850
+F 0 "D?" V 4896 3771 50  0000 R CNN
+F 1 "1N4148" V 4805 3771 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4850 3675 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4850 3850 50  0001 C CNN
+	1    4850 3850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4850 3700 5000 3700
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 6102DA65
+P 5050 3550
+F 0 "MX?" H 5083 3773 60  0000 C CNN
+F 1 "MX-NoLED" H 5083 3699 20  0000 C CNN
+F 2 "" H 4425 3525 60  0001 C CNN
+F 3 "" H 4425 3525 60  0001 C CNN
+	1    5050 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 6102DA6B
+P 5350 3850
+F 0 "D?" V 5396 3771 50  0000 R CNN
+F 1 "1N4148" V 5305 3771 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5350 3675 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5350 3850 50  0001 C CNN
+	1    5350 3850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5350 3700 5500 3700
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 6102DA72
+P 5550 3550
+F 0 "MX?" H 5583 3773 60  0000 C CNN
+F 1 "MX-NoLED" H 5583 3699 20  0000 C CNN
+F 2 "" H 4925 3525 60  0001 C CNN
+F 3 "" H 4925 3525 60  0001 C CNN
+	1    5550 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 6102DA78
+P 5900 3850
+F 0 "D?" V 5946 3771 50  0000 R CNN
+F 1 "1N4148" V 5855 3771 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5900 3675 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5900 3850 50  0001 C CNN
+	1    5900 3850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5900 3700 6050 3700
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 6102DA7F
+P 6100 3550
+F 0 "MX?" H 6133 3773 60  0000 C CNN
+F 1 "MX-NoLED" H 6133 3699 20  0000 C CNN
+F 2 "" H 5475 3525 60  0001 C CNN
+F 3 "" H 5475 3525 60  0001 C CNN
+	1    6100 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 6102DA85
+P 6500 3850
+F 0 "D?" V 6546 3771 50  0000 R CNN
+F 1 "1N4148" V 6455 3771 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6500 3675 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6500 3850 50  0001 C CNN
+	1    6500 3850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6500 3700 6650 3700
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 6102DA8C
+P 6700 3550
+F 0 "MX?" H 6733 3773 60  0000 C CNN
+F 1 "MX-NoLED" H 6733 3699 20  0000 C CNN
+F 2 "" H 6075 3525 60  0001 C CNN
+F 3 "" H 6075 3525 60  0001 C CNN
+	1    6700 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 6102DA92
+P 7000 3850
+F 0 "D?" V 7046 3771 50  0000 R CNN
+F 1 "1N4148" V 6955 3771 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7000 3675 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7000 3850 50  0001 C CNN
+	1    7000 3850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7000 3700 7150 3700
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 6102DA99
+P 7200 3550
+F 0 "MX?" H 7233 3773 60  0000 C CNN
+F 1 "MX-NoLED" H 7233 3699 20  0000 C CNN
+F 2 "" H 6575 3525 60  0001 C CNN
+F 3 "" H 6575 3525 60  0001 C CNN
+	1    7200 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 6102DA9F
+P 7500 3850
+F 0 "D?" V 7546 3771 50  0000 R CNN
+F 1 "1N4148" V 7455 3771 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7500 3675 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7500 3850 50  0001 C CNN
+	1    7500 3850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7500 3700 7650 3700
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 6102DAA6
+P 7700 3550
+F 0 "MX?" H 7733 3773 60  0000 C CNN
+F 1 "MX-NoLED" H 7733 3699 20  0000 C CNN
+F 2 "" H 7075 3525 60  0001 C CNN
+F 3 "" H 7075 3525 60  0001 C CNN
+	1    7700 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 6102DAAC
+P 8050 3850
+F 0 "D?" V 8096 3771 50  0000 R CNN
+F 1 "1N4148" V 8005 3771 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8050 3675 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8050 3850 50  0001 C CNN
+	1    8050 3850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8050 3700 8200 3700
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 6102DAB3
+P 8250 3550
+F 0 "MX?" H 8283 3773 60  0000 C CNN
+F 1 "MX-NoLED" H 8283 3699 20  0000 C CNN
+F 2 "" H 7625 3525 60  0001 C CNN
+F 3 "" H 7625 3525 60  0001 C CNN
+	1    8250 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 6102DAB9
+P 8500 3850
+F 0 "D?" V 8546 3771 50  0000 R CNN
+F 1 "1N4148" V 8455 3771 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8500 3675 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8500 3850 50  0001 C CNN
+	1    8500 3850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8500 3700 8650 3700
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 6102DAC0
+P 8700 3550
+F 0 "MX?" H 8733 3773 60  0000 C CNN
+F 1 "MX-NoLED" H 8733 3699 20  0000 C CNN
+F 2 "" H 8075 3525 60  0001 C CNN
+F 3 "" H 8075 3525 60  0001 C CNN
+	1    8700 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 4000 8050 4000
+Wire Wire Line
+	8050 4000 7500 4000
+Connection ~ 8050 4000
+Wire Wire Line
+	7500 4000 7000 4000
+Connection ~ 7500 4000
+Wire Wire Line
+	7000 4000 6500 4000
+Connection ~ 7000 4000
+Wire Wire Line
+	6500 4000 5900 4000
+Connection ~ 6500 4000
+Wire Wire Line
+	5900 4000 5350 4000
+Connection ~ 5900 4000
+Wire Wire Line
+	5350 4000 4850 4000
+Connection ~ 5350 4000
+Wire Wire Line
+	4850 4000 4300 4000
+Connection ~ 4850 4000
+Wire Wire Line
+	4300 4000 3800 4000
+Connection ~ 4300 4000
+Wire Wire Line
+	3800 4000 3300 4000
+Connection ~ 3800 4000
+Wire Wire Line
+	3300 4000 2700 4000
+Connection ~ 3300 4000
+Wire Wire Line
+	2150 4000 2700 4000
+Connection ~ 2700 4000
+$Comp
+L Diode:1N4148 D?
+U 1 1 610CC8B0
+P 2500 4550
+F 0 "D?" V 2546 4471 50  0000 R CNN
+F 1 "1N4148" V 2455 4471 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2500 4375 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2500 4550 50  0001 C CNN
+	1    2500 4550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2500 4400 2650 4400
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 610CC8B7
+P 2700 4250
+F 0 "MX?" H 2733 4473 60  0000 C CNN
+F 1 "MX-NoLED" H 2733 4399 20  0000 C CNN
+F 2 "" H 2075 4225 60  0001 C CNN
+F 3 "" H 2075 4225 60  0001 C CNN
+	1    2700 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 610CC8BD
+P 3150 4550
+F 0 "D?" V 3196 4471 50  0000 R CNN
+F 1 "1N4148" V 3105 4471 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3150 4375 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3150 4550 50  0001 C CNN
+	1    3150 4550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3150 4400 3300 4400
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 610CC8C4
+P 3350 4250
+F 0 "MX?" H 3383 4473 60  0000 C CNN
+F 1 "MX-NoLED" H 3383 4399 20  0000 C CNN
+F 2 "" H 2725 4225 60  0001 C CNN
+F 3 "" H 2725 4225 60  0001 C CNN
+	1    3350 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 610CC8CA
+P 4600 4550
+F 0 "D?" V 4646 4471 50  0000 R CNN
+F 1 "1N4148" V 4555 4471 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4600 4375 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4600 4550 50  0001 C CNN
+	1    4600 4550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4600 4400 4750 4400
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 610CC8D1
+P 4800 4250
+F 0 "MX?" H 4833 4473 60  0000 C CNN
+F 1 "MX-NoLED" H 4833 4399 20  0000 C CNN
+F 2 "" H 4175 4225 60  0001 C CNN
+F 3 "" H 4175 4225 60  0001 C CNN
+	1    4800 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 610CC8D7
+P 7100 4550
+F 0 "D?" V 7146 4471 50  0000 R CNN
+F 1 "1N4148" V 7055 4471 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7100 4375 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7100 4550 50  0001 C CNN
+	1    7100 4550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7100 4400 7250 4400
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 610CC8DE
+P 7300 4250
+F 0 "MX?" H 7333 4473 60  0000 C CNN
+F 1 "MX-NoLED" H 7333 4399 20  0000 C CNN
+F 2 "" H 6675 4225 60  0001 C CNN
+F 3 "" H 6675 4225 60  0001 C CNN
+	1    7300 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 610CC8E4
+P 7600 4550
+F 0 "D?" V 7646 4471 50  0000 R CNN
+F 1 "1N4148" V 7555 4471 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7600 4375 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7600 4550 50  0001 C CNN
+	1    7600 4550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7600 4400 7750 4400
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 610CC8EB
+P 7800 4250
+F 0 "MX?" H 7833 4473 60  0000 C CNN
+F 1 "MX-NoLED" H 7833 4399 20  0000 C CNN
+F 2 "" H 7175 4225 60  0001 C CNN
+F 3 "" H 7175 4225 60  0001 C CNN
+	1    7800 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 4700 7100 4700
+Wire Wire Line
+	2400 1350 2600 2100
+Wire Wire Line
+	2600 2100 2550 2800
+Connection ~ 2600 2100
+Wire Wire Line
+	2950 1350 2500 3500
+Wire Wire Line
+	2500 3500 2850 4200
+Connection ~ 2500 3500
+Wire Wire Line
+	2500 4700 3150 4700
+Wire Wire Line
+	3550 1350 3150 2100
+Wire Wire Line
+	3150 2100 3100 2800
+Connection ~ 3150 2100
+Wire Wire Line
+	3100 2800 3050 3500
+Connection ~ 3100 2800
+Wire Wire Line
+	4050 1350 3750 2100
+Wire Wire Line
+	3750 2100 3700 2800
+Connection ~ 3750 2100
+Wire Wire Line
+	3700 2800 3650 3500
+Connection ~ 3700 2800
+Wire Wire Line
+	3650 3500 3500 4200
+Connection ~ 3650 3500
+Wire Wire Line
+	4550 1350 4250 2100
+Wire Wire Line
+	4250 2100 4200 2800
+Connection ~ 4250 2100
+Wire Wire Line
+	4200 2800 4150 3500
+Connection ~ 4200 2800
+Wire Wire Line
+	5100 1350 4750 2100
+Wire Wire Line
+	4750 2100 4700 2800
+Connection ~ 4750 2100
+Wire Wire Line
+	4700 2800 4650 3500
+Connection ~ 4700 2800
+Wire Wire Line
+	5600 1350 5300 2100
+Wire Wire Line
+	5300 2100 5250 2800
+Connection ~ 5300 2100
+Wire Wire Line
+	5250 2800 5200 3500
+Connection ~ 5250 2800
+Wire Wire Line
+	5200 3500 4950 4200
+Connection ~ 5200 3500
+Wire Wire Line
+	6150 1350 5800 2100
+Wire Wire Line
+	5800 2100 5750 2800
+Connection ~ 5800 2100
+Wire Wire Line
+	5750 2800 5700 3500
+Connection ~ 5750 2800
+Wire Wire Line
+	6750 1350 6350 2100
+Wire Wire Line
+	6350 2100 6300 2800
+Connection ~ 6350 2100
+Wire Wire Line
+	6300 2800 6250 3500
+Connection ~ 6300 2800
+Wire Wire Line
+	7250 1400 6950 2100
+Wire Wire Line
+	6950 2100 6900 2800
+Connection ~ 6950 2100
+Wire Wire Line
+	6900 2800 6850 3500
+Connection ~ 6900 2800
+Wire Wire Line
+	7750 1350 7450 2100
+Wire Wire Line
+	7450 2100 7400 2800
+Connection ~ 7450 2100
+Wire Wire Line
+	7400 2800 7350 3500
+Connection ~ 7400 2800
+Wire Wire Line
+	7350 3600 7450 4200
+Wire Wire Line
+	8300 1350 7950 2100
+Wire Wire Line
+	7950 2100 7900 2800
+Connection ~ 7950 2100
+Wire Wire Line
+	7900 2800 7850 3500
+Connection ~ 7900 2800
+Wire Wire Line
+	7850 3600 7950 4200
+Wire Wire Line
+	8750 1350 8500 2100
+Wire Wire Line
+	8500 2100 8450 2800
+Connection ~ 8500 2100
+Wire Wire Line
+	9300 1350 8950 2100
+Wire Wire Line
+	8950 2100 8900 2800
+Connection ~ 8950 2100
+Wire Wire Line
+	8900 2800 8400 3500
+Connection ~ 8900 2800
+Wire Wire Line
+	9900 1350 9500 2100
+Wire Wire Line
+	9500 2100 8850 3500
+Connection ~ 9500 2100
+Text GLabel 2400 950  1    50   Input ~ 0
+COL00
+Connection ~ 2950 1350
+Text GLabel 2950 950  1    50   Input ~ 0
+COL01
+Wire Wire Line
+	2950 950  2950 1350
+Wire Wire Line
+	3550 950  3550 1350
+Connection ~ 3550 1350
+Wire Wire Line
+	4050 950  4050 1350
+Connection ~ 4050 1350
+Wire Wire Line
+	4550 950  4550 1350
+Connection ~ 4550 1350
+Wire Wire Line
+	5100 950  5100 1350
+Connection ~ 5100 1350
+Wire Wire Line
+	5600 950  5600 1350
+Connection ~ 5600 1350
+Wire Wire Line
+	6150 950  6150 1350
+Connection ~ 6150 1350
+Wire Wire Line
+	6750 950  6750 1350
+Connection ~ 6750 1350
+Wire Wire Line
+	7250 950  7250 1350
+Wire Wire Line
+	7750 950  7750 1350
+Connection ~ 7750 1350
+Wire Wire Line
+	8300 950  8300 1350
+Connection ~ 8300 1350
+Wire Wire Line
+	8750 950  8750 1350
+Connection ~ 8750 1350
+Wire Wire Line
+	9300 950  9300 1350
+Connection ~ 9300 1350
+Wire Wire Line
+	9900 950  9900 1350
+Connection ~ 9900 1350
+Text GLabel 9900 950  1    50   Input ~ 0
+COL14
+Text GLabel 9300 950  1    50   Input ~ 0
+COL14
+Text GLabel 8750 950  1    50   Input ~ 0
+COL12
+Text GLabel 8300 950  1    50   Input ~ 0
+COL11
+Text GLabel 7750 950  1    50   Input ~ 0
+COL10
+Text GLabel 7250 950  1    50   Input ~ 0
+COL09
+Text GLabel 6750 950  1    50   Input ~ 0
+COL08
+Text GLabel 6150 950  1    50   Input ~ 0
+COL07
+Text GLabel 5600 950  1    50   Input ~ 0
+COL06
+Text GLabel 5100 950  1    50   Input ~ 0
+COL05
+Text GLabel 4550 950  1    50   Input ~ 0
+COL04
+Text GLabel 4050 950  1    50   Input ~ 0
+COL03
+Text GLabel 3550 950  1    50   Input ~ 0
+COL02
+Wire Wire Line
+	3150 4700 4600 4700
+Connection ~ 3150 4700
+Wire Wire Line
+	4600 4700 7100 4700
+Connection ~ 4600 4700
+Connection ~ 7100 4700
+Wire Wire Line
+	1700 1850 2050 1850
+Connection ~ 2050 1850
+Wire Wire Line
+	1700 2600 2250 2600
+Connection ~ 2250 2600
+Wire Wire Line
+	1700 3300 2200 3300
+Connection ~ 2200 3300
+Wire Wire Line
+	1700 4000 2150 4000
+Connection ~ 2150 4000
+Wire Wire Line
+	1700 4700 2500 4700
+Connection ~ 2500 4700
+Text GLabel 1400 1850 2    50   Output ~ 0
+ROw00
+Text GLabel 1400 2600 2    50   Output ~ 0
+ROW01
+Text GLabel 1400 3300 2    50   Output ~ 0
+ROW02
+Text GLabel 1400 4000 2    50   Output ~ 0
+ROW03
+Text GLabel 1400 4700 2    50   Output ~ 0
+ROW04
+Wire Wire Line
+	2400 1350 2400 950 
+Connection ~ 2400 1350
+Wire Wire Line
+	2400 950  1950 950 
+Wire Wire Line
+	1950 950  1950 4800
+Wire Wire Line
+	1950 4800 8300 4800
+Wire Wire Line
+	8300 4800 8300 5050
 $EndSCHEMATC
